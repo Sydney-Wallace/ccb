@@ -1,0 +1,419 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color: #DAEFE5;
+	font-family: 'Abhaya Libre', serif;
+	color: #B26E63;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 {
+	font-family: 'Abhaya Libre', bold;
+	font-size: 46px;
+	color: black;
+}
+
+h2 {
+	font-family: 'Abhaya Libre', bold;
+	font-size: 36px;
+	color: black;
+	padding: 15px;
+}
+
+p {
+	font-size: 24px;
+}
+
+section {
+	background-color: #CFDBD5;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+	padding-right: 35px;
+	align-content: center;
+	margin-top: 0px;
+}
+
+li {
+	margin: 15px;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: black;
+	text-align: left;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	margin: 15;
+	padding-left: 35px;
+	align-items: center;
+	width: 15%;
+}
+
+.hero {
+	font-size: 36px;
+	color: #F49481;
+	padding-top: 10px;
+}
+
+.hero-img {
+	max-width: 100%;
+}
+
+.button {
+	border: #F49481;
+	background-color: #F49481;
+	color: black;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition: all ease .3s;
+	text-align: center;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	padding: 15px;
+
+}
+
+.about p {
+	justify-content:center;
+	flex-direction: column;
+}
+
+.specials {
+	display: flex;
+	justify-content: space-evenly;
+	align-self: center;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.specials-image {
+	width: 85%;
+	border: 3px solid black;
+	padding: 15px;
+}
+
+.location-image {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.location {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: baseline;
+	padding: 15px;
+	text-align: center;
+	margin: 15px;
+}
+
+.mon-tue-wed {
+	margin: 15px;
+}
+
+.thurs {
+	margin: 15px;
+}
+
+.sat {
+	margin: 15px;
+}
+
+.menu {
+	text-align: center;
+	padding: 15px;
+}
+
+.menu-item {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.menu-image {
+	width: 15%;
+	border: 3px solid black;
+	padding: 15px;
+}
+
+content {
+	display: flex;
+	justify-content: center;
+	justify-items: baseline;
+	text-align: center;
+	font-size: 12px;
+}
+
+.specials {
+	display: flex;
+	justify-content: space-around;
+}
+
+.social {
+	display: flex;
+	justify-content: space-around;
+	color: #F49481;
+	font-size: 12px;
+	align-content: space-around;
+}
+
+.social-image {
+	width: 5%;
+	text-align: center;
+}
+
+/* header / nav */
+
+.header {
+	overflow: hidden;
+	padding: 20px 10px;
+	background-color: #DAEFE5;
+	color: #B26E63;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 25px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #FFE8D1;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #DAEFE5;
+  color:black;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-color: #F49481;
+	border-width: 20px;
+	border-style: double;
+	background-color: #DAEFE5;
+	color: #3A2018;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 25px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 24px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #F49481;
+  color: black;
+}
+
+/* Style the active/current link */
+.header a.active {
+  background-color: #DAEFE5;
+  color:black;
+}
+
+.header img.logo{
+	width: 50%;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+/* footer */
+
+.footer {
+	overflow: hidden;
+	padding: 20px 10px;
+	background-color: #DAEFE5;
+	color: #B26E63;
+}
+
+/* Style the header links */
+.footer a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 25px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.footer a.logo {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Change the background color on mouse-over */
+.footer a:hover {
+  background-color: #FFE8D1;
+  color: black;
+}
+
+/* Style the active/current link*/
+.footer a.active {
+  background-color: #DAEFE5;
+  color:black;
+}
+
+/* Float the link section to the right */
+.footer-left {
+  float: left;
+}
+
+.footer {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-color: #F49481;
+	border-width: 20px;
+	border-style: double;
+	background-color: #DAEFE5;
+	color: #3A2018;
+}
+
+/* Style the header links */
+.footer a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 25px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.footer a.logo {
+  font-size: 24px;
+}
+
+/* Change the background color on mouse-over */
+.footer a:hover {
+  background-color: #F49481;
+  color: black;
+}
+
+/* Style the active/current link */
+.footer a.active {
+  background-color: #DAEFE5;
+  color:black;
+}
+
+.footer img.logo{
+	width: 50%;
+}
+
+/* Float the link section to the right */
+.footer-left {
+  float: left;
+}
+
+@media screen and (max-width: 500px) {
+  .footer a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .footer-left {
+    float: none;
+  }
+}
+/* hiring */
+
+label {
+	margin:  10px;
+	padding:  10px;
+	font-family: 'Abhaya Libre', serif;
+	color: #B26E63;
+}
+
